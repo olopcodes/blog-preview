@@ -1,0 +1,32 @@
+@font-face {
+    font-family: FigTree;
+    src: url('./fonts/Figtree-Italic-VariableFont_wght.ttf');    
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: FigTree;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.card {
+    max-width: 400px;
+    box-shadow: 25px 20px 0px 4px black;
+    transition: all ease .4s;
+}
+
+.card:hover {
+    transform: translate(20px, 15px) ;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,.01);
+}
+
+
+
+.card-title:hover {
+    cursor: pointer;
+    /* color: gold; */
+}
